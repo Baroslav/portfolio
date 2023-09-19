@@ -1,0 +1,163 @@
+body {
+  background-color: rgb(52, 7, 94);
+}
+.start {
+  width: 1014px;
+  min-height: 650px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: blueviolet;
+}
+.start__btn {
+  padding: 10px 35px;
+  margin: 0 auto  ;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgba(52, 7, 94, 1);
+  color: white;
+  font-size: 16px;
+  transition: 0.2s all ease;
+}
+.start__btn:hover {
+  background-color: rgba(52, 7, 94, 0.5);
+  background-color: rgb(177, 6, 6);
+  color: black;
+  padding: 13px 38px;
+  font-size: 19px;
+}
+
+
+
+.quiz {
+  position: relative;
+  width: 1014px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 35px;
+  box-sizing: border-box;
+  background-color: blueviolet;
+}
+
+.progress {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 35px;
+}
+.progress span {
+  display: block;
+  content: "";
+  background-color: rgb(231, 230, 213);
+  height: inherit;
+  border-radius: 20px;
+  transition: 0.2s all ease;
+}
+
+.variants {
+  margin: 0;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.variant {
+  list-style-type: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 22px;
+  transition: 0.2s all ease;
+}
+
+.variant:hover {
+  padding: 21px;
+  border: 1px solid black;
+}
+
+
+.finish {
+  position: relative;
+  width: 1014px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+
+.finish__btn {
+  padding: 10px 35px;
+  margin: 0 auto  ;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgba(52, 7, 94, 1);
+  color: white;
+  font-size: 16px;
+  transition: 0.2s all ease;
+}
+
+
+.finish__btn:hover {
+  background-color: rgba(52, 7, 94, 0.5);
+  color: black;
+  padding: 11px 36px;
+  font-size: 17px;
+}
+
+.results { 
+  position: relative;
+  width: 1014px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding: 35px;
+  box-sizing: border-box;
+  background-color: blueviolet;
+}
+
+.results__item {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+}
+.res__variants {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+.res__variant{
+  list-style-type: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 22px;
+  transition: 0.2s all ease;
+}
+
+.res__variant:hover {
+  padding: 21px;
+  border: 1px solid black;
+}
+
+.answer {
+  font-size: 24px;
+  font-weight: 700;
+  color:rgb(14, 0, 0);
+}
